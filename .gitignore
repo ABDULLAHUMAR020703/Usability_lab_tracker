@@ -1,6 +1,7 @@
 node_modules/
 frontend/dist/
 release/
+.build-stamp
 launcher/app.ico
 .env
 # Runtime data - never commit

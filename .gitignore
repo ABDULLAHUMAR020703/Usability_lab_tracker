@@ -1,0 +1,12 @@
+node_modules/
+frontend/dist/
+release/
+launcher/app.ico
+.env
+# Runtime data - never commit
+data/*.db*
+data/*.restoring
+storage/*
+!storage/.gitkeep
+backups/*
+!backups/.gitkeep

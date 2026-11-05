@@ -1,0 +1,15 @@
+{
+  "name": "consumer-insights-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Consumer Insights Hub - research management, calendar, participant CRM and NDA system (JazzCash)",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "setup": "npm --prefix backend install && npm --prefix frontend install",
+    "build": "npm --prefix frontend run build",
+    "init-db": "node scripts/init-db.js",
+    "start": "node --disable-warning=ExperimentalWarning backend/server.js",
+    "dev": "node scripts/dev.js",
+    "test": "node scripts/smoke-test.js"
+  }
+}
